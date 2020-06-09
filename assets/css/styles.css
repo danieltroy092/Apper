@@ -477,3 +477,66 @@ h2.section-title-heading {
 }
 
 /*============== MEDIA QUERIES ==============*/
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background: rgba(0, 172, 217, 1);
+    padding-left: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  /*============= HERO IMG ================*/
+  .image-box {
+    display: none;
+  }
+
+  /*============= FEATURES ================*/
+  #features .device img {
+    margin-bottom: 2rem;
+  }
+
+  /*============= CONTACT ================*/
+  #contact .address {
+    margin-top: 2rem;
+  }
+
+  /*============= FOOTER ================*/
+  .footer-logo {
+    margin-top: -1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  /*=========== HERO SECTION ===============*/
+  .main-hero-content h1,
+  .main-hero-content p,
+  .hero-buttons {
+    text-align: center;
+  }
+
+  .hero-buttons {
+    padding-bottom: 2rem;
+  }
+
+  /*======== FEATURES SECTION =============*/
+  #features {
+    margin-top: -1rem;
+  }
+
+  /*======== PRICING SECTION =============*/
+  #pricing .pricing-table {
+    width: calc(80% / 1);
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #pricing .pricing-table:nth-child(1) {
+    margin-top: -2rem;
+  }
+
+  /*======== CONTACT SECTION =============*/
+  #contact {
+    margin-top: -1rem;
+  }
+}
